@@ -33,265 +33,262 @@ namespace Quiz
 
         private void InitializeComponent()
         {
-            groupBoxAdvisor = new GroupBox();
-            lblAdvisorName = new Label();
-            txtAdvisorName = new TextBox();
-            lblAdvisorDepartment = new Label();
-            txtAdvisorDepartment = new TextBox();
-            btnAddAdvisor = new Button();
-            groupBoxStudent = new GroupBox();
-            lblStudentID = new Label();
-            txtStudentID = new TextBox();
-            lblStudentName = new Label();
-            txtStudentName = new TextBox();
-            lblStudentDepartment = new Label();
-            txtStudentDepartment = new TextBox();
-            lblStudentGrade = new Label();
-            txtStudentGrade = new TextBox();
-            lblStudentAdvisor = new Label();
-            txtStudentAdvisor = new TextBox();
-            btnAddStudent = new Button();
-            groupBoxSearch = new GroupBox();
-            lblSearchAdvisor = new Label();
-            txtAdvisorSearch = new TextBox();
-            btnShowAdvisorStudents = new Button();
-            btnTopStudent = new Button();
-            dataGridViewStudents = new DataGridView();
-            groupBoxAdvisor.SuspendLayout();
-            groupBoxStudent.SuspendLayout();
-            groupBoxSearch.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridViewStudents).BeginInit();
-            SuspendLayout();
+            this.groupBoxAdvisor = new System.Windows.Forms.GroupBox();
+            this.lblAdvisorName = new System.Windows.Forms.Label();
+            this.txtAdvisorName = new System.Windows.Forms.TextBox();
+            this.lblAdvisorDepartment = new System.Windows.Forms.Label();
+            this.txtAdvisorDepartment = new System.Windows.Forms.TextBox();
+            this.btnAddAdvisor = new System.Windows.Forms.Button();
+            this.groupBoxStudent = new System.Windows.Forms.GroupBox();
+            this.lblStudentID = new System.Windows.Forms.Label();
+            this.txtStudentID = new System.Windows.Forms.TextBox();
+            this.lblStudentName = new System.Windows.Forms.Label();
+            this.txtStudentName = new System.Windows.Forms.TextBox();
+            this.lblStudentDepartment = new System.Windows.Forms.Label();
+            this.txtStudentDepartment = new System.Windows.Forms.TextBox();
+            this.lblStudentGrade = new System.Windows.Forms.Label();
+            this.txtStudentGrade = new System.Windows.Forms.TextBox();
+            this.lblStudentAdvisor = new System.Windows.Forms.Label();
+            this.txtStudentAdvisor = new System.Windows.Forms.TextBox();
+            this.btnAddStudent = new System.Windows.Forms.Button();
+            this.groupBoxSearch = new System.Windows.Forms.GroupBox();
+            this.lblSearchAdvisor = new System.Windows.Forms.Label();
+            this.txtAdvisorSearch = new System.Windows.Forms.TextBox();
+            this.btnShowAdvisorStudents = new System.Windows.Forms.Button();
+            this.btnTopStudent = new System.Windows.Forms.Button();
+            this.dataGridViewStudents = new System.Windows.Forms.DataGridView();
+            this.groupBoxAdvisor.SuspendLayout();
+            this.groupBoxStudent.SuspendLayout();
+            this.groupBoxSearch.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewStudents)).BeginInit();
+            this.SuspendLayout();
             // 
             // groupBoxAdvisor
             // 
-            groupBoxAdvisor.Controls.Add(lblAdvisorName);
-            groupBoxAdvisor.Controls.Add(txtAdvisorName);
-            groupBoxAdvisor.Controls.Add(lblAdvisorDepartment);
-            groupBoxAdvisor.Controls.Add(txtAdvisorDepartment);
-            groupBoxAdvisor.Controls.Add(btnAddAdvisor);
-            groupBoxAdvisor.Location = new Point(20, 20);
-            groupBoxAdvisor.Name = "groupBoxAdvisor";
-            groupBoxAdvisor.Size = new Size(350, 150);
-            groupBoxAdvisor.TabIndex = 0;
-            groupBoxAdvisor.TabStop = false;
-            groupBoxAdvisor.Text = "เพิ่มอาจารย์ที่ปรึกษา";
+            this.groupBoxAdvisor.Controls.Add(this.lblAdvisorName);
+            this.groupBoxAdvisor.Controls.Add(this.txtAdvisorName);
+            this.groupBoxAdvisor.Controls.Add(this.lblAdvisorDepartment);
+            this.groupBoxAdvisor.Controls.Add(this.txtAdvisorDepartment);
+            this.groupBoxAdvisor.Controls.Add(this.btnAddAdvisor);
+            this.groupBoxAdvisor.Location = new System.Drawing.Point(20, 20);
+            this.groupBoxAdvisor.Name = "groupBoxAdvisor";
+            this.groupBoxAdvisor.Size = new System.Drawing.Size(350, 150);
+            this.groupBoxAdvisor.TabIndex = 0;
+            this.groupBoxAdvisor.TabStop = false;
+            this.groupBoxAdvisor.Text = "เพิ่มอาจารย์ที่ปรึกษา";
             // 
             // lblAdvisorName
             // 
-            lblAdvisorName.Location = new Point(10, 20);
-            lblAdvisorName.Name = "lblAdvisorName";
-            lblAdvisorName.Size = new Size(100, 23);
-            lblAdvisorName.TabIndex = 0;
-            lblAdvisorName.Text = "ชื่ออาจารย์";
+            this.lblAdvisorName.Location = new System.Drawing.Point(10, 20);
+            this.lblAdvisorName.Name = "lblAdvisorName";
+            this.lblAdvisorName.Size = new System.Drawing.Size(100, 23);
+            this.lblAdvisorName.TabIndex = 0;
+            this.lblAdvisorName.Text = "ชื่ออาจารย์";
             // 
             // txtAdvisorName
             // 
-            txtAdvisorName.Location = new Point(120, 20);
-            txtAdvisorName.Name = "txtAdvisorName";
-            txtAdvisorName.Size = new Size(200, 23);
-            txtAdvisorName.TabIndex = 1;
+            this.txtAdvisorName.Location = new System.Drawing.Point(120, 20);
+            this.txtAdvisorName.Name = "txtAdvisorName";
+            this.txtAdvisorName.Size = new System.Drawing.Size(200, 20);
+            this.txtAdvisorName.TabIndex = 1;
             // 
             // lblAdvisorDepartment
             // 
-            lblAdvisorDepartment.Location = new Point(10, 50);
-            lblAdvisorDepartment.Name = "lblAdvisorDepartment";
-            lblAdvisorDepartment.Size = new Size(100, 23);
-            lblAdvisorDepartment.TabIndex = 2;
-            lblAdvisorDepartment.Text = "สาขา";
+            this.lblAdvisorDepartment.Location = new System.Drawing.Point(10, 50);
+            this.lblAdvisorDepartment.Name = "lblAdvisorDepartment";
+            this.lblAdvisorDepartment.Size = new System.Drawing.Size(100, 23);
+            this.lblAdvisorDepartment.TabIndex = 2;
+            this.lblAdvisorDepartment.Text = "สาขา";
             // 
             // txtAdvisorDepartment
             // 
-            txtAdvisorDepartment.Location = new Point(120, 50);
-            txtAdvisorDepartment.Name = "txtAdvisorDepartment";
-            txtAdvisorDepartment.Size = new Size(200, 23);
-            txtAdvisorDepartment.TabIndex = 3;
+            this.txtAdvisorDepartment.Location = new System.Drawing.Point(120, 50);
+            this.txtAdvisorDepartment.Name = "txtAdvisorDepartment";
+            this.txtAdvisorDepartment.Size = new System.Drawing.Size(200, 20);
+            this.txtAdvisorDepartment.TabIndex = 3;
             // 
             // btnAddAdvisor
             // 
-            btnAddAdvisor.Location = new Point(120, 80);
-            btnAddAdvisor.Name = "btnAddAdvisor";
-            btnAddAdvisor.Size = new Size(75, 23);
-            btnAddAdvisor.TabIndex = 4;
-            btnAddAdvisor.Text = "เพิ่มอาจารย์";
-            btnAddAdvisor.Click += btnAddAdvisor_Click;
+            this.btnAddAdvisor.Location = new System.Drawing.Point(120, 80);
+            this.btnAddAdvisor.Name = "btnAddAdvisor";
+            this.btnAddAdvisor.Size = new System.Drawing.Size(75, 23);
+            this.btnAddAdvisor.TabIndex = 4;
+            this.btnAddAdvisor.Text = "เพิ่มอาจารย์";
             // 
             // groupBoxStudent
             // 
-            groupBoxStudent.Controls.Add(lblStudentID);
-            groupBoxStudent.Controls.Add(txtStudentID);
-            groupBoxStudent.Controls.Add(lblStudentName);
-            groupBoxStudent.Controls.Add(txtStudentName);
-            groupBoxStudent.Controls.Add(lblStudentDepartment);
-            groupBoxStudent.Controls.Add(txtStudentDepartment);
-            groupBoxStudent.Controls.Add(lblStudentGrade);
-            groupBoxStudent.Controls.Add(txtStudentGrade);
-            groupBoxStudent.Controls.Add(lblStudentAdvisor);
-            groupBoxStudent.Controls.Add(txtStudentAdvisor);
-            groupBoxStudent.Controls.Add(btnAddStudent);
-            groupBoxStudent.Location = new Point(20, 180);
-            groupBoxStudent.Name = "groupBoxStudent";
-            groupBoxStudent.Size = new Size(350, 250);
-            groupBoxStudent.TabIndex = 1;
-            groupBoxStudent.TabStop = false;
-            groupBoxStudent.Text = "เพิ่มนักศึกษา";
+            this.groupBoxStudent.Controls.Add(this.lblStudentID);
+            this.groupBoxStudent.Controls.Add(this.txtStudentID);
+            this.groupBoxStudent.Controls.Add(this.lblStudentName);
+            this.groupBoxStudent.Controls.Add(this.txtStudentName);
+            this.groupBoxStudent.Controls.Add(this.lblStudentDepartment);
+            this.groupBoxStudent.Controls.Add(this.txtStudentDepartment);
+            this.groupBoxStudent.Controls.Add(this.lblStudentGrade);
+            this.groupBoxStudent.Controls.Add(this.txtStudentGrade);
+            this.groupBoxStudent.Controls.Add(this.lblStudentAdvisor);
+            this.groupBoxStudent.Controls.Add(this.txtStudentAdvisor);
+            this.groupBoxStudent.Controls.Add(this.btnAddStudent);
+            this.groupBoxStudent.Location = new System.Drawing.Point(422, 20);
+            this.groupBoxStudent.Name = "groupBoxStudent";
+            this.groupBoxStudent.Size = new System.Drawing.Size(350, 250);
+            this.groupBoxStudent.TabIndex = 1;
+            this.groupBoxStudent.TabStop = false;
+            this.groupBoxStudent.Text = "เพิ่มนักศึกษา";
             // 
             // lblStudentID
             // 
-            lblStudentID.Location = new Point(10, 20);
-            lblStudentID.Name = "lblStudentID";
-            lblStudentID.Size = new Size(100, 23);
-            lblStudentID.TabIndex = 0;
-            lblStudentID.Text = "รหัสนักศึกษา";
+            this.lblStudentID.Location = new System.Drawing.Point(10, 20);
+            this.lblStudentID.Name = "lblStudentID";
+            this.lblStudentID.Size = new System.Drawing.Size(100, 23);
+            this.lblStudentID.TabIndex = 0;
+            this.lblStudentID.Text = "รหัสนักศึกษา";
             // 
             // txtStudentID
             // 
-            txtStudentID.Location = new Point(120, 20);
-            txtStudentID.Name = "txtStudentID";
-            txtStudentID.Size = new Size(200, 23);
-            txtStudentID.TabIndex = 1;
+            this.txtStudentID.Location = new System.Drawing.Point(120, 20);
+            this.txtStudentID.Name = "txtStudentID";
+            this.txtStudentID.Size = new System.Drawing.Size(200, 20);
+            this.txtStudentID.TabIndex = 1;
             // 
             // lblStudentName
             // 
-            lblStudentName.Location = new Point(10, 50);
-            lblStudentName.Name = "lblStudentName";
-            lblStudentName.Size = new Size(100, 23);
-            lblStudentName.TabIndex = 2;
-            lblStudentName.Text = "ชื่อนักศึกษา";
+            this.lblStudentName.Location = new System.Drawing.Point(10, 50);
+            this.lblStudentName.Name = "lblStudentName";
+            this.lblStudentName.Size = new System.Drawing.Size(100, 23);
+            this.lblStudentName.TabIndex = 2;
+            this.lblStudentName.Text = "ชื่อนักศึกษา";
             // 
             // txtStudentName
             // 
-            txtStudentName.Location = new Point(120, 50);
-            txtStudentName.Name = "txtStudentName";
-            txtStudentName.Size = new Size(200, 23);
-            txtStudentName.TabIndex = 3;
+            this.txtStudentName.Location = new System.Drawing.Point(120, 50);
+            this.txtStudentName.Name = "txtStudentName";
+            this.txtStudentName.Size = new System.Drawing.Size(200, 20);
+            this.txtStudentName.TabIndex = 3;
             // 
             // lblStudentDepartment
             // 
-            lblStudentDepartment.Location = new Point(10, 80);
-            lblStudentDepartment.Name = "lblStudentDepartment";
-            lblStudentDepartment.Size = new Size(100, 23);
-            lblStudentDepartment.TabIndex = 4;
-            lblStudentDepartment.Text = "สาขา";
+            this.lblStudentDepartment.Location = new System.Drawing.Point(10, 80);
+            this.lblStudentDepartment.Name = "lblStudentDepartment";
+            this.lblStudentDepartment.Size = new System.Drawing.Size(100, 23);
+            this.lblStudentDepartment.TabIndex = 4;
+            this.lblStudentDepartment.Text = "สาขา";
             // 
             // txtStudentDepartment
             // 
-            txtStudentDepartment.Location = new Point(120, 80);
-            txtStudentDepartment.Name = "txtStudentDepartment";
-            txtStudentDepartment.Size = new Size(200, 23);
-            txtStudentDepartment.TabIndex = 5;
+            this.txtStudentDepartment.Location = new System.Drawing.Point(120, 80);
+            this.txtStudentDepartment.Name = "txtStudentDepartment";
+            this.txtStudentDepartment.Size = new System.Drawing.Size(200, 20);
+            this.txtStudentDepartment.TabIndex = 5;
             // 
             // lblStudentGrade
             // 
-            lblStudentGrade.Location = new Point(10, 110);
-            lblStudentGrade.Name = "lblStudentGrade";
-            lblStudentGrade.Size = new Size(100, 23);
-            lblStudentGrade.TabIndex = 6;
-            lblStudentGrade.Text = "เกรด";
+            this.lblStudentGrade.Location = new System.Drawing.Point(10, 110);
+            this.lblStudentGrade.Name = "lblStudentGrade";
+            this.lblStudentGrade.Size = new System.Drawing.Size(100, 23);
+            this.lblStudentGrade.TabIndex = 6;
+            this.lblStudentGrade.Text = "เกรด";
             // 
             // txtStudentGrade
             // 
-            txtStudentGrade.Location = new Point(120, 110);
-            txtStudentGrade.Name = "txtStudentGrade";
-            txtStudentGrade.Size = new Size(200, 23);
-            txtStudentGrade.TabIndex = 7;
+            this.txtStudentGrade.Location = new System.Drawing.Point(120, 110);
+            this.txtStudentGrade.Name = "txtStudentGrade";
+            this.txtStudentGrade.Size = new System.Drawing.Size(200, 20);
+            this.txtStudentGrade.TabIndex = 7;
             // 
             // lblStudentAdvisor
             // 
-            lblStudentAdvisor.Location = new Point(10, 140);
-            lblStudentAdvisor.Name = "lblStudentAdvisor";
-            lblStudentAdvisor.Size = new Size(100, 23);
-            lblStudentAdvisor.TabIndex = 8;
-            lblStudentAdvisor.Text = "อาจารย์ที่ปรึกษา";
+            this.lblStudentAdvisor.Location = new System.Drawing.Point(10, 140);
+            this.lblStudentAdvisor.Name = "lblStudentAdvisor";
+            this.lblStudentAdvisor.Size = new System.Drawing.Size(100, 23);
+            this.lblStudentAdvisor.TabIndex = 8;
+            this.lblStudentAdvisor.Text = "อาจารย์ที่ปรึกษา";
             // 
             // txtStudentAdvisor
             // 
-            txtStudentAdvisor.Location = new Point(120, 140);
-            txtStudentAdvisor.Name = "txtStudentAdvisor";
-            txtStudentAdvisor.Size = new Size(200, 23);
-            txtStudentAdvisor.TabIndex = 9;
+            this.txtStudentAdvisor.Location = new System.Drawing.Point(120, 140);
+            this.txtStudentAdvisor.Name = "txtStudentAdvisor";
+            this.txtStudentAdvisor.Size = new System.Drawing.Size(200, 20);
+            this.txtStudentAdvisor.TabIndex = 9;
             // 
             // btnAddStudent
             // 
-            btnAddStudent.Location = new Point(120, 170);
-            btnAddStudent.Name = "btnAddStudent";
-            btnAddStudent.Size = new Size(75, 23);
-            btnAddStudent.TabIndex = 10;
-            btnAddStudent.Text = "เพิ่มนักศึกษา";
-            btnAddStudent.Click += btnAddStudent_Click;
+            this.btnAddStudent.Location = new System.Drawing.Point(120, 170);
+            this.btnAddStudent.Name = "btnAddStudent";
+            this.btnAddStudent.Size = new System.Drawing.Size(97, 23);
+            this.btnAddStudent.TabIndex = 10;
+            this.btnAddStudent.Text = "เพิ่มนักศึกษา";
             // 
             // groupBoxSearch
             // 
-            groupBoxSearch.Controls.Add(lblSearchAdvisor);
-            groupBoxSearch.Controls.Add(txtAdvisorSearch);
-            groupBoxSearch.Controls.Add(btnShowAdvisorStudents);
-            groupBoxSearch.Controls.Add(btnTopStudent);
-            groupBoxSearch.Location = new Point(20, 440);
-            groupBoxSearch.Name = "groupBoxSearch";
-            groupBoxSearch.Size = new Size(350, 120);
-            groupBoxSearch.TabIndex = 2;
-            groupBoxSearch.TabStop = false;
-            groupBoxSearch.Text = "ค้นหานักศึกษา";
+            this.groupBoxSearch.Controls.Add(this.lblSearchAdvisor);
+            this.groupBoxSearch.Controls.Add(this.txtAdvisorSearch);
+            this.groupBoxSearch.Controls.Add(this.btnShowAdvisorStudents);
+            this.groupBoxSearch.Controls.Add(this.btnTopStudent);
+            this.groupBoxSearch.Location = new System.Drawing.Point(20, 206);
+            this.groupBoxSearch.Name = "groupBoxSearch";
+            this.groupBoxSearch.Size = new System.Drawing.Size(350, 120);
+            this.groupBoxSearch.TabIndex = 2;
+            this.groupBoxSearch.TabStop = false;
+            this.groupBoxSearch.Text = "ค้นหานักศึกษา";
             // 
             // lblSearchAdvisor
             // 
-            lblSearchAdvisor.Location = new Point(10, 20);
-            lblSearchAdvisor.Name = "lblSearchAdvisor";
-            lblSearchAdvisor.Size = new Size(100, 23);
-            lblSearchAdvisor.TabIndex = 0;
-            lblSearchAdvisor.Text = "ชื่ออาจารย์";
+            this.lblSearchAdvisor.Location = new System.Drawing.Point(10, 20);
+            this.lblSearchAdvisor.Name = "lblSearchAdvisor";
+            this.lblSearchAdvisor.Size = new System.Drawing.Size(100, 23);
+            this.lblSearchAdvisor.TabIndex = 0;
+            this.lblSearchAdvisor.Text = "ชื่ออาจารย์";
             // 
             // txtAdvisorSearch
             // 
-            txtAdvisorSearch.Location = new Point(120, 20);
-            txtAdvisorSearch.Name = "txtAdvisorSearch";
-            txtAdvisorSearch.Size = new Size(200, 23);
-            txtAdvisorSearch.TabIndex = 1;
+            this.txtAdvisorSearch.Location = new System.Drawing.Point(120, 20);
+            this.txtAdvisorSearch.Name = "txtAdvisorSearch";
+            this.txtAdvisorSearch.Size = new System.Drawing.Size(200, 20);
+            this.txtAdvisorSearch.TabIndex = 1;
             // 
             // btnShowAdvisorStudents
             // 
-            btnShowAdvisorStudents.Location = new Point(120, 50);
-            btnShowAdvisorStudents.Name = "btnShowAdvisorStudents";
-            btnShowAdvisorStudents.Size = new Size(107, 23);
-            btnShowAdvisorStudents.TabIndex = 2;
-            btnShowAdvisorStudents.Text = "แสดงนักศึกษา";
-            btnShowAdvisorStudents.Click += btnShowAdvisorStudents_Click;
+            this.btnShowAdvisorStudents.Location = new System.Drawing.Point(120, 50);
+            this.btnShowAdvisorStudents.Name = "btnShowAdvisorStudents";
+            this.btnShowAdvisorStudents.Size = new System.Drawing.Size(107, 23);
+            this.btnShowAdvisorStudents.TabIndex = 2;
+            this.btnShowAdvisorStudents.Text = "แสดงนักศึกษา";
             // 
             // btnTopStudent
             // 
-            btnTopStudent.Location = new Point(120, 80);
-            btnTopStudent.Name = "btnTopStudent";
-            btnTopStudent.Size = new Size(107, 23);
-            btnTopStudent.TabIndex = 3;
-            btnTopStudent.Text = "นักศึกษาที่ดีที่สุด";
-            btnTopStudent.Click += btnTopStudent_Click;
+            this.btnTopStudent.Location = new System.Drawing.Point(120, 80);
+            this.btnTopStudent.Name = "btnTopStudent";
+            this.btnTopStudent.Size = new System.Drawing.Size(107, 23);
+            this.btnTopStudent.TabIndex = 3;
+            this.btnTopStudent.Text = "นักศึกษาที่ดีที่สุด";
             // 
             // dataGridViewStudents
             // 
-            dataGridViewStudents.Location = new Point(400, 20);
-            dataGridViewStudents.Name = "dataGridViewStudents";
-            dataGridViewStudents.Size = new Size(372, 200);
-            dataGridViewStudents.TabIndex = 3;
+            this.dataGridViewStudents.Location = new System.Drawing.Point(12, 332);
+            this.dataGridViewStudents.Name = "dataGridViewStudents";
+            this.dataGridViewStudents.Size = new System.Drawing.Size(372, 200);
+            this.dataGridViewStudents.TabIndex = 3;
             // 
             // Form1
             // 
-            BackColor = Color.LightGray;
-            ClientSize = new Size(784, 561);
-            Controls.Add(groupBoxAdvisor);
-            Controls.Add(groupBoxStudent);
-            Controls.Add(groupBoxSearch);
-            Controls.Add(dataGridViewStudents);
-            Name = "Form1";
-            StartPosition = FormStartPosition.CenterScreen;
-            Text = "ระบบบันทึกข้อมูลนักศึกษาและที่ปรึกษา";
-            groupBoxAdvisor.ResumeLayout(false);
-            groupBoxAdvisor.PerformLayout();
-            groupBoxStudent.ResumeLayout(false);
-            groupBoxStudent.PerformLayout();
-            groupBoxSearch.ResumeLayout(false);
-            groupBoxSearch.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)dataGridViewStudents).EndInit();
-            ResumeLayout(false);
+            this.BackColor = System.Drawing.Color.WhiteSmoke;
+            this.ClientSize = new System.Drawing.Size(784, 561);
+            this.Controls.Add(this.groupBoxAdvisor);
+            this.Controls.Add(this.groupBoxStudent);
+            this.Controls.Add(this.groupBoxSearch);
+            this.Controls.Add(this.dataGridViewStudents);
+            this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "ระบบบันทึกข้อมูลนักศึกษาและที่ปรึกษา";
+            this.groupBoxAdvisor.ResumeLayout(false);
+            this.groupBoxAdvisor.PerformLayout();
+            this.groupBoxStudent.ResumeLayout(false);
+            this.groupBoxStudent.PerformLayout();
+            this.groupBoxSearch.ResumeLayout(false);
+            this.groupBoxSearch.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.dataGridViewStudents)).EndInit();
+            this.ResumeLayout(false);
+
         }
     }
 }
